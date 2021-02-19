@@ -31,9 +31,6 @@ function Checkout() {
                 ))}
 
 
-
-                {/* Basket Item*/}
-
                 </div>
 
             <div className='checkout__right'>
