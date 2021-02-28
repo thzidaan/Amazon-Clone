@@ -105,3 +105,22 @@ Issues? Report them at https://github.com/firebase/firebase-tools/issues and att
 [info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"Finished \"api\" in ~1s"}}
 [debug] [2021-02-28T06:04:08.211Z] [worker-api-c1629ac7-ccc0-457e-a77e-56cd8a2c7b50]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-api-c1629ac7-ccc0-457e-a77e-56cd8a2c7b50]: IDLE"}}
 [debug] [2021-02-28T06:04:08.211Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2021-02-28T06:10:35.015Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2021-02-28T06:10:35.015Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2021-02-28T06:10:35.015Z] Accepted request POST /challenge-fe8f5/us-central1/api/payments/create?total=26292 --> api
+[debug] [2021-02-28T06:10:35.016Z] [worker-pool] submitWork(triggerId=api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=api)"}}
+[debug] [2021-02-28T06:10:35.016Z] [worker-api-c1629ac7-ccc0-457e-a77e-56cd8a2c7b50]: Assigning socketPath: /tmp/fire_emu_39510.sock {"metadata":{"emulator":{"name":"functions"},"message":"[worker-api-c1629ac7-ccc0-457e-a77e-56cd8a2c7b50]: Assigning socketPath: /tmp/fire_emu_39510.sock"}}
+[debug] [2021-02-28T06:10:35.016Z] [worker-api-c1629ac7-ccc0-457e-a77e-56cd8a2c7b50]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-api-c1629ac7-ccc0-457e-a77e-56cd8a2c7b50]: BUSY"}}
+[debug] [2021-02-28T06:10:35.020Z] [runtime-status] [39510] Trigger "api" has been found, beginning invocation! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"[runtime-status] [39510] Trigger \"api\" has been found, beginning invocation!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"Beginning execution of \"api\""}}
+[debug] [2021-02-28T06:10:35.020Z] [runtime-status] [39510] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"[runtime-status] [39510] triggerDefinition {\"httpsTrigger\":{},\"name\":\"api\",\"entryPoint\":\"api\"}"}}
+[debug] [2021-02-28T06:10:35.021Z] [runtime-status] [39510] Running api in mode HTTPS {"metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"[runtime-status] [39510] Running api in mode HTTPS"}}
+[debug] [2021-02-28T06:10:35.021Z] [runtime-status] [39510] Attempting to listen to socketPath: /tmp/fire_emu_39510.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"[runtime-status] [39510] Attempting to listen to socketPath: /tmp/fire_emu_39510.sock"}}
+[debug] [2021-02-28T06:10:35.025Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2021-02-28T06:10:35.025Z] [functions] Got req.url=/challenge-fe8f5/us-central1/api/payments/create?total=26292, mapping to path=/payments/create?total=26292 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/challenge-fe8f5/us-central1/api/payments/create?total=26292, mapping to path=/payments/create?total=26292"}}
+[debug] [2021-02-28T06:10:35.033Z] [runtime-status] [39510] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"[runtime-status] [39510] Ephemeral server handling POST request"}}
+[info] >  Payment Request Recieved BOOOM for this amount >>> 26292 {"user":"Payment Request Recieved BOOOM for this amount >>> 26292","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m Payment Request Recieved BOOOM for this amount >>> 26292"}}
+[debug] [2021-02-28T06:10:35.035Z] [runtime-status] [39510] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"[runtime-status] [39510] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~2s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"Finished \"api\" in ~2s"}}
+[debug] [2021-02-28T06:10:37.252Z] [worker-api-c1629ac7-ccc0-457e-a77e-56cd8a2c7b50]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-api-c1629ac7-ccc0-457e-a77e-56cd8a2c7b50]: IDLE"}}
+[debug] [2021-02-28T06:10:37.252Z] [work-queue] {"queueLength":0,"workRunningCount":0}
