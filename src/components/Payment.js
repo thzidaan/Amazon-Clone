@@ -44,6 +44,9 @@ function Payment() {
             getClientSecret();
         }, [basket])
 
+    
+        console.log('The Secret is >>>>', clientSecret)
+
     const handleSubmit = async (event) => {
 
         event.preventDefault();
@@ -59,6 +62,8 @@ function Payment() {
             }
         }).then(({ payemntIntent  }) => {
             //Stripe calls it paymentIntent = payment confirmation
+
+            
 
             setSucceeded(true);
             setError(null);
